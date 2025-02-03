@@ -145,7 +145,6 @@ generos_pl = generos_pl.value_counts()
 nombres_generos_pl = generos_pl.index
 
 #grafica
-#grafica
 plt.figure(figsize=(10, 6))
 plt.pie(generos_pl, labels=nombres_generos_pl, autopct='%1.1f%%')
 plt.title('Genero principal de las peliculas mas largas')
